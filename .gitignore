@@ -1,0 +1,22 @@
+# Node dependencies
+node_modules/
+
+# Environment secrets
+.env
+.env.local
+.env.production
+
+# Uploaded audio streams & temporary files
+backend/uploads/
+*.mp3
+*.wav
+*.m4a
+*.ogg
+
+# Next.js build cache
+frontend/.next/
+frontend/out/
+
+# System junk
+.DS_Store
+Thumbs.db
